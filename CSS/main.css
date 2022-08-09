@@ -365,7 +365,21 @@ a:hover, a:active, a:focus, a:focus-within {
  */
 body {
   color: rgb(34, 34, 34);
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Exo 2", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pacifico", sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 /**
@@ -418,10 +432,6 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
-}
-
-h1 {
-  margin: 0;
 }
 
 ul {

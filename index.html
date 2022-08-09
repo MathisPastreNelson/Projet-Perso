@@ -2,36 +2,79 @@
 <html lang="fr">
 
 <head>
+
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="./bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./CSS/main.css">
 
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/7198aa6036.js" crossorigin="anonymous"></script>
+
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Title -->
     <title>Portefolio de Mathis Pastre Développeur web</title>
     <meta name="description"
         content="Ce site a pour but de donner un aperçu de tous mes projets et de montrer mes compétences">
+
 </head>
 
 <body>
 
-    <header class="container-fluid bg-danger">
-        <div class="row">
-            <h1 class="col-7 text-center align-self-center">Hello world !</h1>
-            <nav class="col-5 bg-info text-center">
-                <ul>
-                    <li>Présentation</li>
-                    <li>Portefolio</li>
-                    <li>Me Contacter</li>
-                </ul>
-            </nav>
+    <header>
+        <div class="container-fluid bg-danger">
+            <div class="row">
+                <h1 class="col-12 col-md-8 text-center align-self-center">Hello world !</h1>
+                <nav class="col bg-info text-center">
+                    <ul>
+                        <li><a href="#present">Présentation</a></li>
+                        <li><a href="#expertise">Mon expertise</a></li>
+                        <li><a href="#portefolio">Portefolio</a></li>
+                        <li><a href="#contact">Contactez moi</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <main></main>
+    <main>
+        <div id="present" class="container py-5">
+            <h2>Qui suis-je ?</h2>
+            <h3>Bienvenue dans mon univers créatif</h3>
+            <p>Je m'apelle Mathis Pastre, je suis développeur web</p>
+        </div>
 
-    <footer></footer>
+        <div id="expertise" class="container py-5">
+            <h2>Mes connaissances</h2>
+            <p>Une présentation de mes hard-skills</p>
+            <p>J'ai suivi la formation d'OpenClassRoom</p>
+        </div>
+
+        <div id="portefolio" class="container py-5">
+            <h2>Mes projets</h2>
+            <p>Projets perso et pro</p>
+        </div>
+
+        <div id="contact" class="container py-5">
+            <h2>Me contacter</h2>
+            <p>Un projet de création web ?</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid text-center bg-danger">
+            <h2>Footer</h2>
+            <p>Voici mon Footer</p>
+        </div>
+    </footer>
 
 </body>
 
