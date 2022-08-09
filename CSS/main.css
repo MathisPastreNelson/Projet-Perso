@@ -366,6 +366,8 @@ a:hover, a:active, a:focus, a:focus-within {
 body {
   color: rgb(34, 34, 34);
   font-family: "Exo 2", sans-serif;
+  background: rgb(15, 5, 5);
+  background: radial-gradient(circle, rgb(15, 5, 5) 53%, rgba(5, 0, 0, 0.9953596288) 75%, rgb(0, 0, 0) 100%);
 }
 
 h1,
@@ -376,10 +378,12 @@ h5,
 h6 {
   font-family: "Pacifico", sans-serif;
   margin: 0;
+  color: white;
 }
 
 p {
   margin: 0;
+  color: white;
 }
 
 /**
@@ -441,4 +445,24 @@ ul {
 
 li {
   list-style: none;
+}
+
+.btn {
+  background-color: #007865;
+  border: 2px solid #bffff5;
+  color: #bffff5;
+  transition: 500ms;
+}
+
+.btn:hover {
+  background-color: #bffff5;
+  border: 2px solid #007865;
+  color: black;
+  font-weight: bold;
+}
+
+.card-property {
+  border: solid rgba(255, 255, 255, 0.171) 2px;
+  background: rgb(55, 55, 55);
+  background: radial-gradient(circle, rgb(55, 55, 55) 36%, rgba(40, 40, 40, 0.9953596288) 68%, rgb(0, 0, 0) 100%);
 }/*# sourceMappingURL=main.css.map */

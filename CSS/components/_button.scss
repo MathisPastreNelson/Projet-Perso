@@ -1,3 +1,17 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.btn {
+    background-color: #007865;
+    border: 2px solid #bffff5;
+    color: #bffff5;
+    transition: 500ms;
+}
+
+.btn:hover {
+    background-color: #bffff5;
+    border: 2px solid #007865;
+    color: black;
+    font-weight: bold;
+}

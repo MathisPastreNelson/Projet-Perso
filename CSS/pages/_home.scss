@@ -1,3 +1,9 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.card-property {
+    border: solid rgba(255, 255, 255, 0.171) 2px;
+    background: rgb(55, 55, 55);
+    background: radial-gradient(circle, rgba(55, 55, 55, 1) 36%, rgba(40, 40, 40, 0.9953596287703016) 68%, rgba(0, 0, 0, 1) 100%);
+}
