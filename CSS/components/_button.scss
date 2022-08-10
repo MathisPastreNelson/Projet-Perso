@@ -7,9 +7,17 @@
     border: 2px solid #bffff5;
     color: #bffff5;
     transition: 500ms;
+    margin-top: 1rem;
 }
 
 .btn:hover {
+    background-color: #bffff5;
+    border: 2px solid #007865;
+    color: black;
+    font-weight: bold;
+}
+
+.btn:focus {
     background-color: #bffff5;
     border: 2px solid #007865;
     color: black;
