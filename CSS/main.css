@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -469,6 +470,7 @@ li {
   font-weight: bold;
 }
 
+/*Propriétés des cartes portefolio*/
 .portefolioGallery {
   margin: 1rem;
 }
@@ -485,4 +487,13 @@ li {
 
 .card-title {
   margin-top: 0;
+}
+
+/*Animation icones*/
+.title_animation {
+  transition: 2000ms ease-in;
+}
+
+.title_animation:hover > i {
+  transform: scale(1.2);
 }/*# sourceMappingURL=main.css.map */

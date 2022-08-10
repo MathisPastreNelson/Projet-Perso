@@ -1,6 +1,9 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+/*Propriétés des cartes portefolio*/
+
 .portefolioGallery {
     margin: 1rem;
 }
@@ -17,4 +20,15 @@
 
 .card-title {
     margin-top: 0;
+}
+
+
+/*Animation icones*/
+
+.title_animation {
+    transition: 2000ms ease-in;
+}
+
+.title_animation:hover>i {
+    transform: scale(1.2);
 }
