@@ -1,6 +1,16 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.header-logo {
+    width: 100px;
+    margin-left: -0.8rem;
+    object-fit: cover;
+}
+
+.banner {
+    display: flex;
+}
+
 ul {
     margin: 0;
     padding: 0;
