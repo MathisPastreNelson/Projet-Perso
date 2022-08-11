@@ -8,86 +8,10 @@
     margin: 1rem;
 }
 
-.card {
-    border: solid rgba(255, 255, 255, 0.171) 2px;
-    background: rgb(55, 55, 55);
-    background: radial-gradient(circle, rgba(55, 55, 55, 1) 36%, rgba(40, 40, 40, 0.9953596287703016) 68%, rgba(0, 0, 0, 1) 100%);
-}
-
 .card-body {
     padding: 1rem 0 0 0;
 }
 
 .card-title {
     margin-top: 0;
-}
-
-
-/*Animation des titres*/
-
-.title_animation:hover {
-    -webkit-animation: text-shadow-drop-center 0.6s both;
-    animation: text-shadow-drop-center 0.6s both;
-    cursor: default;
-}
-
-@-webkit-keyframes text-shadow-drop-center {
-    0% {
-        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    }
-
-    100% {
-        text-shadow: 0 0 18px rgb(0, 255, 98);
-    }
-}
-
-@keyframes text-shadow-drop-center {
-    0% {
-        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    }
-
-    100% {
-        text-shadow: 0 0 18px rgb(0, 255, 98);
-    }
-}
-
-/*Animation des icones*/
-
-.title_animation:hover>i {
-    -webkit-animation: rotate-scale-up-diag-1 0.7s linear both;
-    animation: rotate-scale-up-diag-1 0.7s linear both;
-}
-
-@-webkit-keyframes rotate-scale-up-diag-1 {
-    0% {
-        -webkit-transform: scale(1) rotate3d(1, 1, 0, 0deg);
-        transform: scale(1) rotate3d(1, 1, 0, 0deg);
-    }
-
-    50% {
-        -webkit-transform: scale(2) rotate3d(1, 1, 0, -180deg);
-        transform: scale(2) rotate3d(1, 1, 0, -180deg);
-    }
-
-    100% {
-        -webkit-transform: scale(1) rotate3d(1, 1, 0, -360deg);
-        transform: scale(1) rotate3d(1, 1, 0, -360deg);
-    }
-}
-
-@keyframes rotate-scale-up-diag-1 {
-    0% {
-        -webkit-transform: scale(1) rotate3d(1, 1, 0, 0deg);
-        transform: scale(1) rotate3d(1, 1, 0, 0deg);
-    }
-
-    50% {
-        -webkit-transform: scale(2) rotate3d(1, 1, 0, -180deg);
-        transform: scale(2) rotate3d(1, 1, 0, -180deg);
-    }
-
-    100% {
-        -webkit-transform: scale(1) rotate3d(1, 1, 0, -360deg);
-        transform: scale(1) rotate3d(1, 1, 0, -360deg);
-    }
 }

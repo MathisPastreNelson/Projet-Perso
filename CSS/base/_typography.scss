@@ -3,9 +3,6 @@
  */
 body {
   color: $text-color;
-  font-family: 'Exo 2', sans-serif;
-  background: rgb(15, 5, 5);
-  background: radial-gradient(circle, rgba(15, 5, 5, 1) 53%, rgba(5, 0, 0, 0.9953596287703016) 75%, rgba(0, 0, 0, 1) 100%);
 }
 
 h1,
@@ -16,10 +13,9 @@ h5,
 h6 {
   font-family: 'Pacifico', sans-serif;
   margin: 1rem 0;
-  color: white;
 }
 
 p {
   margin: 0;
-  color: white;
+  font-family: 'Exo 2', sans-serif;
 }

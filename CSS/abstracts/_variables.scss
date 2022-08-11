@@ -57,7 +57,7 @@ $breakpoints: (
   'small': 320px,
   'medium': 768px,
   'large': 1024px,
-) !default;
+  ) !default;
 
 
 
@@ -69,3 +69,11 @@ $breakpoints: (
 /// @example scss - When using a CDN
 ///   $base-url: 'https://cdn.example.com/assets/';
 $base-url: '/assets/' !default;
+
+
+/*Couleur du site*/
+$primary-color: #00D9E8;
+$secondary-color: #02E7CF;
+$tertiary-color: #71F2AC;
+$quarternary-color: #B6F889;
+$quinary-color: #F9F871;

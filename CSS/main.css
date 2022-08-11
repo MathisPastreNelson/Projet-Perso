@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Couleur du site*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -366,9 +367,6 @@ a:hover, a:active, a:focus, a:focus-within {
  */
 body {
   color: rgb(34, 34, 34);
-  font-family: "Exo 2", sans-serif;
-  background: rgb(15, 5, 5);
-  background: radial-gradient(circle, rgb(15, 5, 5) 53%, rgba(5, 0, 0, 0.9953596288) 75%, rgb(0, 0, 0) 100%);
 }
 
 h1,
@@ -379,12 +377,11 @@ h5,
 h6 {
   font-family: "Pacifico", sans-serif;
   margin: 1rem 0;
-  color: white;
 }
 
 p {
   margin: 0;
-  color: white;
+  font-family: "Exo 2", sans-serif;
 }
 
 /**
@@ -449,36 +446,33 @@ li {
 }
 
 .btn {
-  background-color: #007865;
-  border: 2px solid #bffff5;
-  color: #bffff5;
-  transition: 500ms;
+  background-color: #F9F871;
+  border: 3px solid #71F2AC;
+  transition: 300ms;
   margin-top: 1rem;
+  color: black;
+  border-radius: 20px;
 }
 
 .btn:hover {
-  background-color: #bffff5;
-  border: 2px solid #007865;
+  background-color: #02E7CF;
+  border: 3px solid #00D9E8;
   color: black;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .btn:focus {
-  background-color: #bffff5;
-  border: 2px solid #007865;
+  background-color: #02E7CF;
+  border: 3px solid #00D9E8;
   color: black;
   font-weight: bold;
+  text-decoration: none;
 }
 
 /*Propriétés des cartes portefolio*/
 .portefolioGallery {
   margin: 1rem;
-}
-
-.card {
-  border: solid rgba(255, 255, 255, 0.171) 2px;
-  background: rgb(55, 55, 55);
-  background: radial-gradient(circle, rgb(55, 55, 55) 36%, rgba(40, 40, 40, 0.9953596288) 68%, rgb(0, 0, 0) 100%);
 }
 
 .card-body {
@@ -487,56 +481,4 @@ li {
 
 .card-title {
   margin-top: 0;
-}
-
-/*Animation des titres*/
-.title_animation:hover {
-  -webkit-animation: text-shadow-drop-center 0.6s both;
-  animation: text-shadow-drop-center 0.6s both;
-  cursor: default;
-}
-
-@-webkit-keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0 0 18px rgb(0, 255, 98);
-  }
-}
-@keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0 0 18px rgb(0, 255, 98);
-  }
-}
-/*Animation des icones*/
-.title_animation:hover > i {
-  -webkit-animation: rotate-scale-up-diag-1 0.7s linear both;
-  animation: rotate-scale-up-diag-1 0.7s linear both;
-}
-
-@-webkit-keyframes rotate-scale-up-diag-1 {
-  0% {
-    transform: scale(1) rotate3d(1, 1, 0, 0deg);
-  }
-  50% {
-    transform: scale(2) rotate3d(1, 1, 0, -180deg);
-  }
-  100% {
-    transform: scale(1) rotate3d(1, 1, 0, -360deg);
-  }
-}
-@keyframes rotate-scale-up-diag-1 {
-  0% {
-    transform: scale(1) rotate3d(1, 1, 0, 0deg);
-  }
-  50% {
-    transform: scale(2) rotate3d(1, 1, 0, -180deg);
-  }
-  100% {
-    transform: scale(1) rotate3d(1, 1, 0, -360deg);
-  }
 }/*# sourceMappingURL=main.css.map */

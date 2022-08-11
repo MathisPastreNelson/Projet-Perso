@@ -3,23 +3,26 @@
 // -----------------------------------------------------------------------------
 
 .btn {
-    background-color: #007865;
-    border: 2px solid #bffff5;
-    color: #bffff5;
-    transition: 500ms;
+    background-color: $quinary-color;
+    border: 3px solid $tertiary-color;
+    transition: 300ms;
     margin-top: 1rem;
+    color: black;
+    border-radius: 20px;
 }
 
 .btn:hover {
-    background-color: #bffff5;
-    border: 2px solid #007865;
+    background-color: $secondary-color;
+    border: 3px solid $primary-color;
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .btn:focus {
-    background-color: #bffff5;
-    border: 2px solid #007865;
+    background-color: $secondary-color;
+    border: 3px solid $primary-color;
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
