@@ -446,14 +446,19 @@ p {
 }
 
 .header-logo {
-  width: 100px;
-  margin-left: -0.8rem;
+  width: 120px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .banner {
   display: flex;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -463,6 +468,28 @@ ul {
 
 li {
   list-style: none;
+  padding: 3px 6px;
+  transition: 300ms;
+  color: black;
+  border: 2px rgb(0, 0, 0) solid;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 10rem;
+  margin-left: auto;
+}
+
+li:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 0px 3px rgba(211, 211, 211, 0.8), -2px 0px 3px rgba(209, 209, 209, 0.8), 2px 0px 3px rgba(248, 248, 248, 0.8);
+}
+
+li > * {
+  color: black;
+  font-weight: bold;
+}
+
+li:hover > * {
+  text-decoration: none;
 }
 
 .btn {
