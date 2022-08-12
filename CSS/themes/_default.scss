@@ -2,8 +2,23 @@
 // When having several themes, this file contains everything related to the
 // default one.
 // -----------------------------------------------------------------------------
-.bg-1 {
-    background-image: url(/img/bg_map.png);
-    margin-left: auto;
-    margin-right: auto;
+.background-1 {
+    background: url(../img/bg_map.png) no-repeat;
+    background-position: center;
+}
+
+.background_title {
+    background: url(../img/bg-computer2.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_title2 {
+    background: url(../img/bg_computer.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
