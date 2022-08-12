@@ -22,6 +22,7 @@
     transform: scale(1.05);
 }
 
+
 /*Propriétés des cartes portefolio*/
 
 .portefolioGallery {
@@ -34,4 +35,49 @@
 
 .card-title {
     margin-top: 0;
+}
+
+/*SkillBars*/
+
+.complete_skillbar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    background-image: linear-gradient(to right, #f85555, #ef792b, #d49c00, #abbb11, #6ed451);
+}
+
+.iconText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fa-html5 {
+    color: rgb(68, 68, 255);
+    font-size: 30px;
+}
+
+.fa-css3-alt {
+    color: orange;
+    font-size: 30px;
+}
+
+.fa-sass {
+    color: rgb(235, 0, 145);
+    font-size: 30px;
+}
+
+.fa-bootstrap {
+    color: rgb(119, 0, 255);
+    font-size: 30px;
 }
