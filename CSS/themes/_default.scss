@@ -5,6 +5,7 @@
 .background-map {
     background: url(../img/bg_map.png) no-repeat;
     background-position: center;
+    background-color: #d8d8d8;
 }
 
 .background_title {
@@ -21,4 +22,26 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.background_grey {
+    background: url(../img/bg_grey.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_portefolio {
+    background-image: -webkit-repeating-linear-gradient(135deg, rgba(182, 182, 182, 0.3), rgba(216, 216, 216, 0.3) 2px, transparent 2px, transparent 2px, rgba(105, 105, 105, 0.3) 3px);
+    background-image: -moz-repeating-linear-gradient(135deg, rgba(182, 182, 182, 0.3), rgba(216, 216, 216, 0.3) 1px, transparent 2px, transparent 2px, rgba(105, 105, 105, 0.3) 3px);
+    background-image: -o-repeating-linear-gradient(135deg, rgba(182, 182, 182, 0.3), rgba(216, 216, 216, 0.3) 1px, transparent 2px, transparent 2px, rgba(105, 105, 105, 0.3) 3px);
+    background-image: repeating-linear-gradient(135deg, rgba(182, 182, 182, 0.3), rgba(216, 216, 216, 0.3) 1px, transparent 2px, transparent 2px, rgba(105, 105, 105, 0.3) 3px);
+    -webkit-background-size: 4px 4px;
+    -moz-background-size: 4px 4px;
+    background-size: 4px 4px;
+}
+
+.background_contact {
+    background: url(../img/contact-background.jpg);
 }
