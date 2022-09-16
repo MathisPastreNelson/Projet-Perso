@@ -552,6 +552,12 @@ li:hover > * {
   margin: 1rem;
 }
 
+.card-img-property {
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .card-body {
   padding: 1rem 0 0 0;
 }
