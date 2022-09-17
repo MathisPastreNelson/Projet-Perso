@@ -503,27 +503,32 @@ li:hover > * {
   text-decoration: none;
 }
 
+.footerP {
+  color: white;
+}
+
 .btn {
-  background-color: #F9F871;
-  border: 3px solid #71F2AC;
+  background-color: white;
+  border: 3px solid black;
   transition: 300ms;
   margin-top: 1rem;
   color: black;
+  font-weight: bold;
   border-radius: 20px;
 }
 
 .btn:hover {
-  background-color: #02E7CF;
-  border: 3px solid #00D9E8;
-  color: black;
+  background-color: black;
+  border: 3px solid white;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
 
 .btn:focus {
-  background-color: #02E7CF;
-  border: 3px solid #00D9E8;
-  color: black;
+  background-color: black;
+  border: 3px solid white;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
@@ -553,7 +558,7 @@ li:hover > * {
 }
 
 .card-img-property {
-  height: 220px;
+  height: 130px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -582,6 +587,10 @@ li:hover > * {
   background-image: linear-gradient(to right, #f85555, #ef792b, #d49c00, #abbb11, #6ed451);
 }
 
+.progress-bar-reverse {
+  background-image: linear-gradient(to right, #6ed451, #abbb11, #d49c00, #ef792b, #f85555);
+}
+
 .iconText {
   display: flex;
   align-items: center;
@@ -608,6 +617,26 @@ li:hover > * {
 
 .fa-bootstrap {
   color: rgb(119, 0, 255);
+  font-size: 30px;
+}
+
+.fa-js {
+  color: rgb(166, 180, 46);
+  font-size: 30px;
+}
+
+.fa-angular {
+  color: rgb(202, 25, 25);
+  font-size: 30px;
+}
+
+.fa-react {
+  color: rgb(22, 151, 215);
+  font-size: 30px;
+}
+
+.fa-database {
+  color: rgb(25, 116, 20);
   font-size: 30px;
 }
 

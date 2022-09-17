@@ -3,26 +3,27 @@
 // -----------------------------------------------------------------------------
 
 .btn {
-    background-color: $quinary-color;
-    border: 3px solid $tertiary-color;
+    background-color: white;
+    border: 3px solid black;
     transition: 300ms;
     margin-top: 1rem;
     color: black;
+    font-weight: bold;
     border-radius: 20px;
 }
 
 .btn:hover {
-    background-color: $secondary-color;
-    border: 3px solid $primary-color;
-    color: black;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
 
 .btn:focus {
-    background-color: $secondary-color;
-    border: 3px solid $primary-color;
-    color: black;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }

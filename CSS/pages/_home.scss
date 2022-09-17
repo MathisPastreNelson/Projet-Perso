@@ -30,7 +30,7 @@
 }
 
 .card-img-property {
-    height: 220px;
+    height: 130px;
     object-fit: cover;
 }
 
@@ -57,6 +57,10 @@
 
 .progress-bar {
     background-image: linear-gradient(to right, #f85555, #ef792b, #d49c00, #abbb11, #6ed451);
+}
+
+.progress-bar-reverse {
+    background-image: linear-gradient(to right, #6ed451, #abbb11, #d49c00, #ef792b, #f85555, );
 }
 
 .iconText {
@@ -86,6 +90,26 @@
 
 .fa-bootstrap {
     color: rgb(119, 0, 255);
+    font-size: 30px;
+}
+
+.fa-js {
+    color: rgb(166, 180, 46);
+    font-size: 30px;
+}
+
+.fa-angular {
+    color: rgb(202, 25, 25);
+    font-size: 30px;
+}
+
+.fa-react {
+    color: rgb(22, 151, 215);
+    font-size: 30px;
+}
+
+.fa-database {
+    color: rgb(25, 116, 20);
     font-size: 30px;
 }
 
