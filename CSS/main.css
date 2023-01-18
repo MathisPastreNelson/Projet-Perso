@@ -499,8 +499,14 @@ li > * {
   font-weight: bold;
 }
 
-li:hover > * {
+li:hover {
   text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+li:hover > * {
+  color: white;
 }
 
 .footerP {
