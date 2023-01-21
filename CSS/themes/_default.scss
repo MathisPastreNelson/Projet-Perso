@@ -32,6 +32,11 @@
     background-size: cover;
 }
 
+.background_gradient {
+    background: rgb(9, 0, 15);
+    background: linear-gradient(90deg, rgba(9, 0, 15, 1) 0%, rgba(0, 0, 0, 0.3981967787114846) 100%);
+}
+
 .background_portefolio {
     background-image: -webkit-repeating-linear-gradient(135deg, rgba(182, 182, 182, 0.3), rgba(216, 216, 216, 0.3) 2px, transparent 2px, transparent 2px, rgba(105, 105, 105, 0.3) 3px);
     background-image: -moz-repeating-linear-gradient(135deg, rgba(182, 182, 182, 0.3), rgba(216, 216, 216, 0.3) 1px, transparent 2px, transparent 2px, rgba(105, 105, 105, 0.3) 3px);

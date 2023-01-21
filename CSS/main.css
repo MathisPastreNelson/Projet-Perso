@@ -515,8 +515,8 @@ li:hover > * {
 
 .btn {
   background-color: white;
-  border: 3px solid black;
-  transition: 300ms;
+  border: 2px solid black;
+  transition: 500ms;
   margin-top: 1rem;
   color: black;
   font-weight: bold;
@@ -525,15 +525,17 @@ li:hover > * {
 
 .btn:hover {
   background-color: black;
-  border: 3px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.938);
   color: white;
   font-weight: bold;
   text-decoration: none;
+  transform: scale(1.1);
+  box-shadow: 2px 4px 3px rgb(0, 0, 0);
 }
 
 .btn:focus {
   background-color: black;
-  border: 3px solid white;
+  border: 2px solid rgba(255, 255, 255, 0);
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -563,8 +565,17 @@ li:hover > * {
   margin: 1rem;
 }
 
+.card {
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.911);
+}
+
 .card-img-property {
-  height: 130px;
+  height: 180px;
+  width: 95%;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.911);
+  border-radius: 15px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -693,6 +704,11 @@ li:hover > * {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.background_gradient {
+  background: rgb(9, 0, 15);
+  background: linear-gradient(90deg, rgb(9, 0, 15) 0%, rgba(0, 0, 0, 0.3981967787) 100%);
 }
 
 .background_portefolio {
